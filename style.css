@@ -3,9 +3,7 @@ body {
     background-repeat: no-repeat;
 
     margin: 0;
-    /* margem externa dos elementos */
     padding: 0;
-    /* margem interna dos elementos */
     font-family: 'Baloo Bhaina 2';
 }
 
@@ -25,13 +23,17 @@ body {
     ;
 }
 
+ul li a:hover {
+    color: #9F7FDB ;
+}
+
 main {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
 }
 
-.sec-left {
+.sec {
     margin-left: 100px;
 }
 
@@ -71,18 +73,39 @@ button{
     padding: 10px;
 }
 
+#lua:hover{
+    background: #9F7FDB;
+}
+
 #infomais{
     background: #9F7FDB;
     width:145px;
-    margin-left: 40px;
+    margin-left:40px;
+    
+
 }
 
-.sec-right{
-    display: flex;
+#infomais:hover{
+    background: #7834F3;
 }
 
 #foguete{
     float: right;
     margin-top: -570px;
     margin-right: 80px;
+}
+
+.campo-obrigatorio {
+    color: #e33d3df2;
+    font-size: 12px;
+    visibility: hidden;
+    margin-top: 12px;
+    margin-bottom: -5px;
+    margin-left: 260px;
+}
+
+#send{
+    margin-left:60px;
+    margin-bottom: -5px;
+    margin-top: 30px;
 }
